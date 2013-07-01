@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS101 Quiz</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/quiz.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="hero-unit">
+                <h1>Best Pictures Since 2000</h1>
+            </div>
+            <div id="question_body">
+                <h2 id="question_number"></h2>
+                <form id="question_form" method="">
+                <div id="questions">
+                    <legend id="question_text"></legend>
+                    <label class="radio">
+                        <input type="radio" name="question" id="answer1" value="1">
+                            <span class="question_text" id="question1"></span>
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="question" id="answer2" value="2">
+                            <span class="question_text" id="question2"></span>
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="question" id="answer3" value="3">
+                            <span class="question_text" id="question3"></span>
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="question" id="answer4" value="4">
+                            <span class="question_text" id="question4"></span>
+                    </label>
+                </div>
+                <div class="button_div">
+                    <button class="btn btn-primary" id="submit_guess">Submit</button>
+                    <button class="btn btn-info" id="next_question">Next Question &raquo;</button>
+                </div>
+                </form>
+            </div>
+            <div id="results">
+                <h2 id="results_text"></h2>
+                <div class="button_div">
+                    <button class="btn btn-large btn-primary" id="play_again">Play again?</button>
+                </div>
+            </div>
+        </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+        <script src="js/quiz.js"></script>
+    </body>
+</html>

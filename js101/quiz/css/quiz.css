@@ -1,0 +1,28 @@
+.button_div {
+    margin-top: 15px;
+    clear: both;
+    width: 80%;
+    text-align: left;
+}
+
+.correct {
+    color: green;
+    font-weight: bold;
+}
+
+.incorrect {
+    color: red;
+    font-weight: bold;
+}
+
+#results {
+    display: none;
+}
+
+#question_body {
+    display: none;
+}
+
+#next_question {
+    display: none;
+}
