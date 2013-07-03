@@ -70,7 +70,7 @@ $(document).ready(function() {
         });
         $("#questions span").removeClass("correct").removeClass("incorrect");
         renderQuestion();
-    }
+    };
     
     var checkGuess = function() {
         var this_guess = $("input:radio[name=question]:checked").val();
