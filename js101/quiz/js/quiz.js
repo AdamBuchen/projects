@@ -68,8 +68,7 @@ $(document).ready(function() {
         $radios.each(function(i) {
            this.checked = false; 
         });
-        $("#questions span").removeClass("correct");
-        $("#questions span").removeClass("incorrect");
+        $("#questions span").removeClass("correct").removeClass("incorrect");
         renderQuestion();
     }
     
