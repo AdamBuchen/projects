@@ -97,7 +97,7 @@ $(document).ready(function() {
         num_correct = 0;
         $results.hide();
         renderQuestion();
-    }
+    };
     
     $submit_guess.on("click",checkGuess);
     $next_question.on("click",nextQuestion);
